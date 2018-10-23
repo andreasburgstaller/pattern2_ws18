@@ -24,7 +24,10 @@ https://www.cs.waikato.ac.nz/ml/weka/downloading.html
 # Evaluation
 The evaluation is based on the performance of the Neural Network.
 
+<img src="https://wiki.delphigl.com/index.php/Datei:Artificial_neural_network.png" height="560" width="500">
+
 NN Parameter:
+
 For  the  MLP  network,  preliminary  tests  were  made
 with different numbers of hidden neurons to find out the
 minimum value that enables a suitable class separation.
