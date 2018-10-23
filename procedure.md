@@ -12,9 +12,8 @@ The observed Feature Selection Algorithms are Filter and Wrapper Methods:
 3. Correlation Feature Selection
 
 "Good feature subsets contain features highly correlated with the classification, yet uncorrelated to each other"
-
-The Correlation Feature Selection (CFS) measure evaluates subsets of features on the basis of the following hypothesis: .[27][28] The following equation gives the merit of a feature subset S consisting of k features: 
-calculated out of Rcf (is the average value of all feature-classification correlations) and Rff(is the average value of all feature-feature correlations. The CFS criterion is defined as follows: )
+The Correlation Feature Selection (CFS) measure evaluates subsets of features on this hypothesis. T
+Calculated out of Rcf (is the average value of all feature-classification correlations) and Rff(is the average value of all feature-feature correlations. The CFS criterion is defined as follows: )
 
 
 
