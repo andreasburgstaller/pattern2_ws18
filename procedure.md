@@ -34,3 +34,4 @@ activation function. The MLP is trained for 500 epochs
 with a learning rate set to η = 0.05.
 
 Other measures?
+KNN geht schneller laut Teacher :)
