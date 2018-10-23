@@ -3,13 +3,22 @@
 # Goal
 Compare the performance of three different Feature Selection Algorithms based on a Neural Network whereas a smaller number of features is priorized.
 The parameters of the Neural Network are adopted from the paper 'Short-Term Memory Mechanisms in Neural Network Learning of Robot Navigation Tasks: A Case Study' (Ananda et al., 2009).
-The observed Feature Selection Algorithms are
+The observed Feature Selection Algorithms are Filter and Wrapper Methods:
 
 1. Linear Discriminant Analysis
 
 2. GreedyStepwise: Performs a greedy forward or backward search through the space of attribute subsets. http://weka.sourceforge.net/doc.dev/weka/attributeSelection/GreedyStepwise.html
 
 3. Correlation Feature Selection
+
+"Good feature subsets contain features highly correlated with the classification, yet uncorrelated to each other"
+
+The Correlation Feature Selection (CFS) measure evaluates subsets of features on the basis of the following hypothesis: .[27][28] The following equation gives the merit of a feature subset S consisting of k features: 
+calculated out of Rcf (is the average value of all feature-classification correlations) and Rff(is the average value of all feature-feature correlations. The CFS criterion is defined as follows: )
+
+
+
+
 
 4. Randomized Feature Selection
 
